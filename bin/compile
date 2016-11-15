@@ -1,4 +1,5 @@
 #!/bin/bash
 echo "-----> Found a Makefile"
 cd $1
+ls $HOME/.heroku/go
 $HOME/.heroku/go/bin/go build -o  bin/miboy github.com/otbzi/miboy/src/cmd/miboy

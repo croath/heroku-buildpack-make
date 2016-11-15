@@ -1,4 +1,4 @@
 #!/bin/bash
 echo "-----> Found a Makefile"
 cd $1
-make
+go build -o  bin/miboy github.com/otbzi/miboy/src/cmd/miboy
